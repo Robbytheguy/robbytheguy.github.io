@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="description" content="Maverick Plaque, handmade by NozzleWorks Studio. Multicolor 3D print with glow-in-the-dark details. $15.">
+<meta name="theme-color" content="#0d0e11">
+<title>Maverick Plaque | NozzleWorks Studio</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{--bg:#0d0e11;--card:#16181d;--line:#262932;--text:#eceef2;--muted:#9aa0ab;--glow:#5ff0d8}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55}
+img,video{display:block;max-width:100%}
+.hero{position:relative;background:#000}
+.hero video{width:100%;height:auto;max-height:78vh;object-fit:cover;margin:0 auto}
+.hero::after{content:"";position:absolute;inset:auto 0 0 0;height:90px;background:linear-gradient(transparent,var(--bg));pointer-events:none}
+main{max-width:640px;margin:0 auto;padding:0 20px 40px}
+header{text-align:center;margin-top:-8px;position:relative;z-index:1}
+h1{font-size:clamp(1.8rem,7vw,2.4rem);line-height:1.15;margin:0 0 6px;letter-spacing:-.01em}
+.sub{margin:0;color:var(--muted);font-size:1rem;letter-spacing:.04em}
+.price{display:inline-block;margin:18px 0 6px;font-size:2rem;font-weight:700;color:var(--glow);text-shadow:0 0 18px rgba(95,240,216,.35)}
+.cta{display:block;margin:14px auto 0;max-width:360px;padding:15px 20px;border-radius:14px;background:var(--glow);color:#06231e;font-weight:700;font-size:1.05rem;text-decoration:none;text-align:center;box-shadow:0 6px 24px rgba(95,240,216,.22)}
+.cta:active{transform:translateY(1px)}
+section{margin-top:36px}
+h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin:0 0 12px;font-weight:600}
+.desc p{margin:0 0 16px}
+ul.features{list-style:none;padding:0;margin:0;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+ul.features li{padding:12px 16px 12px 40px;position:relative;border-top:1px solid var(--line)}
+ul.features li:first-child{border-top:0}
+ul.features li::before{content:"";position:absolute;left:17px;top:21px;width:8px;height:8px;border-radius:50%;background:var(--glow);box-shadow:0 0 8px var(--glow)}
+.gallery{display:grid;gap:16px}
+figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+figure img,figure video{width:100%;height:auto;background:#000}
+figcaption{padding:10px 14px;font-size:.9rem;color:var(--muted)}
+.contact{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px 18px}
+.contact p{margin:0 0 4px}
+.addr{margin-top:12px!important;font-size:.92rem;color:var(--muted);word-break:break-all}
+.addr a{color:var(--text)}
+footer{max-width:640px;margin:0 auto;padding:0 20px calc(32px + env(safe-area-inset-bottom));color:var(--muted);font-size:.85rem;text-align:center}
+footer .brand{margin-top:10px;color:#6b7180;letter-spacing:.06em}
+@media (min-width:700px){.gallery{grid-template-columns:1fr 1fr}.hero video{max-height:82vh;width:auto}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <video src="hero.mp4" poster="hero-poster.jpg" autoplay muted loop playsinline preload="auto" aria-label="The Maverick plaque on its stand, glowing under a blacklight"></video>
+</div>
+<main>
+  <header>
+    <h1>Maverick Plaque</h1>
+    <p class="sub">Handmade by NozzleWorks Studio</p>
+    <div class="price">$15</div>
+    <a class="cta" href="mailto:robbytheguy@gmail.com?subject=Order%3A%20Maverick%20Plaque&body=Hi%20Robert%2C%0A%0AI%27d%20like%20to%20order%20the%20Maverick%20Plaque%20%28%2415%29.%0A%0AName%3A%0AQuantity%3A%0APhone%20%28optional%29%3A%0AHow%20I%27d%20like%20to%20get%20it%20%28hand-delivery%20at%20work%2C%20pickup%2C%20etc.%29%3A%0A%0AThanks%21">Order</a>
+  </header>
+
+  <section class="desc">
+    <h2>About</h2>
+    <p>A round black Maverick plaque showing a skull in a tactical helmet with goggles and an oxygen mask, with the lettering MAVERICK, Est. 2024, SPIRIT DEFENSE. The skull, lettering and helmet accents glow in the dark with a cyan-green glow. Each one is made to order.</p>
+    <ul class="features">
+      <li>Multicolor 3D-printed design with raised detail</li>
+      <li>About 7 in across</li>
+      <li>Glow-in-the-dark skull, lettering and helmet accents</li>
+      <li>Includes display stand</li>
+      <li>Made to order</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <figure><img src="room-light-stand.jpg" width="900" height="1200" loading="lazy" alt="Maverick plaque on its display stand in room light"><figcaption>In room light, on its stand</figcaption></figure>
+      <figure><img src="glow-dim.jpg" width="900" height="1200" loading="lazy" alt="Maverick plaque glowing in dim light, held in hand"><figcaption>Glowing in dim light</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Interested?</h2>
+    <p>Tap Order to send me a quick order email. I'll reply to set up delivery.</p>
+    <p>You can pay with Cash App at <a href="https://cash.app/$heyrobbytheguy" style="color:var(--glow);font-weight:700;text-decoration:none">$heyrobbytheguy</a>.</p>
+    <a class="cta" href="mailto:robbytheguy@gmail.com?subject=Order%3A%20Maverick%20Plaque&body=Hi%20Robert%2C%0A%0AI%27d%20like%20to%20order%20the%20Maverick%20Plaque%20%28%2415%29.%0A%0AName%3A%0AQuantity%3A%0APhone%20%28optional%29%3A%0AHow%20I%27d%20like%20to%20get%20it%20%28hand-delivery%20at%20work%2C%20pickup%2C%20etc.%29%3A%0A%0AThanks%21">Order</a>
+    <p class="addr">Questions? <a href="mailto:robbytheguy@gmail.com?subject=Maverick%20Plaque">robbytheguy@gmail.com</a></p>
+  </section>
+</main>
+<footer>
+  <p>Each piece is 3D printed to order. Minor surface and color variations are a natural part of the process and make every piece unique.</p>
+  <p class="brand"><a href="../" style="color:inherit">More plaques from NozzleWorks Studio</a></p>
+</footer>
+</body>
+</html>
