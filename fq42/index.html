@@ -14,7 +14,7 @@ html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55}
 img,video{display:block;max-width:100%}
 .hero{position:relative;background:#000}
-.hero video{width:100%;height:auto;max-height:78vh;object-fit:cover;margin:0 auto}
+.hero video,.hero img{width:100%;height:auto;max-height:78vh;object-fit:contain;margin:0 auto}
 .hero::after{content:"";position:absolute;inset:auto 0 0 0;height:90px;background:linear-gradient(transparent,var(--bg));pointer-events:none}
 main{max-width:640px;margin:0 auto;padding:0 20px 40px}
 header{text-align:center;margin-top:-8px;position:relative;z-index:1}
@@ -40,12 +40,12 @@ figcaption{padding:10px 14px;font-size:.9rem;color:var(--muted)}
 .addr a{color:var(--text)}
 footer{max-width:640px;margin:0 auto;padding:0 20px calc(32px + env(safe-area-inset-bottom));color:var(--muted);font-size:.85rem;text-align:center}
 footer .brand{margin-top:10px;color:#6b7180;letter-spacing:.06em}
-@media (min-width:700px){.gallery{grid-template-columns:1fr 1fr}.hero video{max-height:82vh;width:auto}}
+@media (min-width:700px){.gallery{grid-template-columns:1fr 1fr}.hero video,.hero img{max-height:82vh;width:auto}}
 </style>
 </head>
 <body>
 <div class="hero">
-  <video src="hero.mp4" poster="hero-poster.jpg" autoplay muted loop playsinline preload="auto" aria-label="The FQ-42 Vengeance plaque glowing under a blacklight"></video>
+  <img src="studio.jpg" width="1200" height="1200" alt="FQ-42 Vengeance plaque with glowing green lettering on a dark background">
 </div>
 <main>
   <header>
@@ -68,9 +68,9 @@ footer .brand{margin-top:10px;color:#6b7180;letter-spacing:.06em}
   </section>
 
   <section>
-    <h2>Gallery</h2>
+    <h2>In the dark</h2>
     <div class="gallery" style="grid-template-columns:1fr;max-width:700px;margin:0 auto">
-      <figure><img src="studio.jpg" width="1200" height="1200" loading="lazy" alt="FQ-42 Vengeance plaque with glowing green lettering on a dark background"><figcaption>Glow lettering up close</figcaption></figure>
+      <figure><video src="hero.mp4" poster="hero-poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="The FQ-42 Vengeance plaque glowing under a blacklight"></video><figcaption>Glowing under a blacklight</figcaption></figure>
     </div>
   </section>
 
