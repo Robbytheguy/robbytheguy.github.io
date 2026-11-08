@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="#F7F6F2"/>
+  <polygon points="500.00,108.82 821.65,294.52 821.65,705.48 500.00,891.18 178.35,705.48 178.35,294.52" fill="none" stroke="#424549" stroke-width="32.59" stroke-linejoin="miter"/>
+  <polygon points="500.00,289.51 341.66,289.51 500.00,380.93" fill="#424549" stroke="#424549" stroke-width="0.6"/>
+  <polygon points="500.00,289.51 658.34,289.51 500.00,380.93" fill="#686C70" stroke="#686C70" stroke-width="0.6"/>
+  <polygon points="500.00,398.77 328.28,299.63 328.28,412.17 392.95,412.17 500.00,473.97" fill="#424549" stroke="#424549" stroke-width="0.6"/>
+  <polygon points="500.00,398.77 671.72,299.63 671.72,412.17 607.05,412.17 500.00,473.97" fill="#686C70" stroke="#686C70" stroke-width="0.6"/>
+  <polygon points="500.00,491.81 392.95,430.01 392.95,525.90 448.71,572.74 500.00,583.89" fill="#424549" stroke="#424549" stroke-width="0.6"/>
+  <polygon points="500.00,491.81 607.05,430.01 607.05,525.90 551.29,572.74 500.00,583.89" fill="#686C70" stroke="#686C70" stroke-width="0.6"/>
+  <polygon points="500.00,590.58 444.25,590.58 500.00,686.47" fill="#BF4F20" stroke="#BF4F20" stroke-width="0.6"/>
+  <polygon points="500.00,590.58 555.75,590.58 500.00,686.47" fill="#D46F29" stroke="#D46F29" stroke-width="0.6"/>
+</svg>
